@@ -25,6 +25,8 @@ daemon
 auth cache strong
 proxy -n -a -p50000
 socks -p50001" >> /etc/3proxy/conf/3proxy.cfg
+setgid 0
+setuid 0
 #https proxy на 50000 порту, socks5 на 50001
 
 echo "user:CL:password" >> /etc/3proxy/conf/passwd	#логин и пароль по умолчанию
