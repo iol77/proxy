@@ -16,8 +16,8 @@ sudo make install
 
 echo -n > /etc/3proxy/conf/3proxy.cfg
 
-echo "nserver 8.8.8.8
-nserver 8.8.4.4
+echo "nserver 77.88.8.8
+nserver 77.88.8.1
 nscache 65536
 timeouts 1 5 30 60 180 1800 15 60
 users $/conf/passwd
